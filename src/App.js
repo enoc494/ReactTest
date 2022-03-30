@@ -19,9 +19,13 @@ function App() {
     fetch("https://tenders.guru/api/es/tenders",  { mode: 'no-cors'})
     .then( r => r.json() )
     .then(data =>{
+      if(!data){
+        return console.log('error')
+      }
       console.log(data);
     })
-  },[])
+   },[])
+
   return (
     <div>
     <Encabezado/> 
