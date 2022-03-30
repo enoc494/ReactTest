@@ -30,12 +30,11 @@ function App() {
   },[])
 
   return (
-    <div>
-    <Encabezado/> 
-    <FechaTituloRow/>
-    <Contenido/>
-    <BotonesRow/>
-      
+    <div className="body">
+      <Encabezado/> 
+      <FechaTituloRow/>
+      <Contenido/>
+      <BotonesRow/> 
     </div>
   );
 }

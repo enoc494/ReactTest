@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Encabezado() {
   return (
-    <div>Encabezado</div>
+    <div className='header'>Encabezado</div>
   )
 }
