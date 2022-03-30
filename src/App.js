@@ -4,6 +4,7 @@ import FechaTituloRow from "./componentes/FechaTituloRow"
 import Contenido from "./componentes/Contenido";
 import BotonesRow from "./componentes/BotonesRow";
 
+import './assets/css/app.css';
 
 
 //Este componente debe considerarse una "tarjeta de la app"
@@ -15,8 +16,9 @@ function App() {
   const [tender, setTender] = useState([]);
  
   //Cambiar hook para la actualización
-   useEffect( ()=>{
-    fetch("https://tenders.guru/api/es/tenders",  { mode: 'no-cors'})
+  useEffect( ()=>{
+    
+    fetch("https://tenders.guru/api/es/tenders")
     .then( r => r.json() )
     .then(data =>{
       if(!data){
@@ -24,7 +26,8 @@ function App() {
       }
       console.log(data);
     })
-   },[])
+
+  },[])
 
   return (
     <div>
