@@ -14,14 +14,27 @@
   text-align: center;
   padding:5px;
   margin: 5px;
+  align-items: center;
+  display:block;
 }
 
-.header{
-  
+
+.dateTitle{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contenedor-buttons{
+  display: flex;
+}
+
+.box{
+  margin: auto;
   padding: auto;
-  background-color: red;
+  background-color: #FFFFFF;
   border-color: black;
   border-style: solid;
   border-radius: 5%;
   width: 50%;
+
 }

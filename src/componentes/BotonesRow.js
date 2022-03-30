@@ -3,7 +3,7 @@ import Boton from './Boton.js'
 
 export default function BotonesRow() {
   return (
-    <div>
+    <div className='container-buttons'>
       <Boton/>
       <Boton/>
       <Boton/>

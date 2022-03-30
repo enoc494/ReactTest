@@ -4,7 +4,7 @@ import Titulo from './Titulo'
 
 export default function FechaTituloRow() {
   return (
-    <div>
+    <div className='dateTitle'>
       <Fecha/>
       <Titulo/>  
     </div>
