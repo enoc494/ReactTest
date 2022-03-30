@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T00:22:55.438Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="kMdFtFO1yZNfzkqfdu45" version="16.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-30T00:33:19.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="sp8QKD-p6F5gM5I52U2i" version="16.5.5" type="github">
   <diagram id="ezJ_rabV-5ZXKjAf8Yjo" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,17 +16,20 @@
         <mxCell id="TPQMXeYdP0p6g40dUxNg-4" value="Noticia anterior" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TPQMXeYdP0p6g40dUxNg-5" value="Titulo de noticia" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TPQMXeYdP0p6g40dUxNg-5" value="Tender titulo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="120" width="460" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TPQMXeYdP0p6g40dUxNg-6" value="Fecha noticia" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TPQMXeYdP0p6g40dUxNg-6" value="Fecha tender" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TPQMXeYdP0p6g40dUxNg-8" value="Contenido de la noticia" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TPQMXeYdP0p6g40dUxNg-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="200" width="560" height="100" as="geometry" />
         </mxCell>
         <mxCell id="TPQMXeYdP0p6g40dUxNg-9" value="Noticia aleatoria" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TPQMXeYdP0p6g40dUxNg-10" value="Descripción (del comprador):&amp;nbsp;&lt;br&gt;&lt;br&gt;Comprador:&lt;br&gt;&lt;br&gt;Premios:&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="210" width="540" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
